@@ -55,5 +55,4 @@ public class OlItems {
             magnetic = 10.04f;
         }};
 
-    }
-}
+    }}
