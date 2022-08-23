@@ -180,7 +180,7 @@ public class OlBlocks{
 
 					new IOEntry(
 					Seq.with(ItemStack.with(
-							OlItems.magneticCombination, 1
+							OlItems.mm, 1
 					)),
 			        Seq.with()),
 			100f
