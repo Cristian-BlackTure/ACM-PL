@@ -6,7 +6,7 @@ import ol.type.items.OlItem;
 
 public class OlItems {
 	public static Item
-		omalite, grumon, omaliteAlloy, magneticCombination, zarini, valkon, mm;
+		omalite, grumon, omaliteAlloy, mm, zarini, valkon;
 
     public static void load() {
         omalite = new OlItem("omalite", Color.valueOf("abcdef")) {{
@@ -30,7 +30,7 @@ public class OlItems {
             flammability = -0.40f;
             magnetic = 0.08f;
         }};
-        magneticCombination = new OlItem("magnetic-combination", Color.valueOf("9f849d")){{
+        mm = new OlItem("mm", Color.valueOf("9f849d")){{
             magnetic = 0.67f;
             cost = 3;
             hardness = 7;
@@ -48,11 +48,6 @@ public class OlItems {
             hardness = 8;
             radioactivity = 0.012f;
             magnetic = 0.04f;
-        mm = new OlItem("mm", Color.valueOf("905452")){{
-            cost = 5;
-            hardness = 8;
-            radioactivity = 0.012f;
-            magnetic = 10.04f;
         }};
 
     }
