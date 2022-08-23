@@ -48,6 +48,11 @@ public class OlItems {
             hardness = 8;
             radioactivity = 0.012f;
             magnetic = 0.04f;
+        mm = new OlItem("mm", Color.valueOf("905452")){{
+            cost = 5;
+            hardness = 8;
+            radioactivity = 0.012f;
+            magnetic = 10.04f;
         }};
     }
 }
